@@ -1,0 +1,48 @@
+# Node modules
+node_modules/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache/
+dist/
+build/
+
+# Sequelize migrations and seeds
+src/migrations/
+src/seeders/
+
+# Debug and test files
+coverage/
+*.test.js
+*.spec.js
+jest/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Dependencies for serverless environments
+.serverless/
+
+# Others
+*.bak
+*.backup
+*.old
